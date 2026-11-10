@@ -9,6 +9,8 @@ name: GPU kernel tests (simulated H100)
 # does not replace it.
 
 on:
+  push:
+    branches: [ verify-gpu-sim ]
   workflow_dispatch:
   pull_request:
     branches: [ main ]
